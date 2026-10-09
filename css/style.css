@@ -14,17 +14,18 @@
 .card-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
+  gap: 16px;
 }
 
 .card {
-  padding: 10px;
+  padding: 12px;
   border: 1px solid red;
   margin: 9px;
 }
 .register-form input {
-  padding: 5px;
+  padding: 6px;
 }
+
 .register-form input:focus {
   outline: 2px solid blue;
   border-color: blue;
